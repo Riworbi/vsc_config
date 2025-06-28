@@ -4,7 +4,6 @@
     "workbench.colorTheme": "Kanagawa",
     "editor.lineNumbers": "relative",
 
-
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -23,6 +22,8 @@
     // switch b/w buffers
     { "before": ["<S-h>"], "commands": [":bprevious"] },
     { "before": ["<S-l>"], "commands": [":bnext"] },
+    { "before": ["<C-d>"], "after": ["<C-d>","z","z"]},
+    { "before": ["<C-u>"], "after": ["<C-u>","z","z"]},
 
     // splits
     { "before": ["leader", "v"], "commands": [":vsplit"] },
