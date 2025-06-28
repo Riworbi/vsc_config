@@ -13,6 +13,11 @@
       "before": ["U"],
       "commands": [":redo"]
     },
+    {
+    "before": ["<leader>", "o"],
+    "commands": ["lineBreakInsert"],
+    "silent": true
+    },
     //Turn off arrow keys 
     { "before": ["<up>"], "after": [] },
     { "before": ["<down>"], "after": [] },
