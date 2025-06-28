@@ -35,5 +35,15 @@
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+      "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "shift+d",
+      "when": "filesExplorerFocus && !inputFocus"
   }
 ]
